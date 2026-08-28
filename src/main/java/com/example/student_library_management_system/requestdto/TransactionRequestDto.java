@@ -6,7 +6,7 @@ import lombok.Data;
 
 @Data
 public class TransactionRequestDto {
-    private String dueDate;
+    private String dueDate; // we can remove it as we are calculating automatically in transaction service
     private TransactionType transactionType;
 
     private int cardId;
